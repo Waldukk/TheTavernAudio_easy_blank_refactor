@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{62c2dc96-23e9-4173-996f-fb1af807c7a8}">
+		<property name="assetPath">
+			<value>R_sounds/player/jump_drop_wood1.flac</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.70356249999999998</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{47b614af-d56f-4b41-abfc-bb5042db9d82}</destination>
+		</relationship>
+	</object>
+</objects>

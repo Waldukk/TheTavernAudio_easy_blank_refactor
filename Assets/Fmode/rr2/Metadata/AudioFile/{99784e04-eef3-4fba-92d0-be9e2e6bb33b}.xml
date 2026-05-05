@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{99784e04-eef3-4fba-92d0-be9e2e6bb33b}">
+		<property name="assetPath">
+			<value>R_sounds/player/footsteps/stone/foot_stone4.flac</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.38860416666666664</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{47b614af-d56f-4b41-abfc-bb5042db9d82}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{0799f7db-624b-4cf5-bb40-dc6ef2e8a9e2}">
+		<property name="assetPath">
+			<value>R_sounds/amb/amb_tavern.flac</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>148</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{47b614af-d56f-4b41-abfc-bb5042db9d82}</destination>
+		</relationship>
+	</object>
+</objects>

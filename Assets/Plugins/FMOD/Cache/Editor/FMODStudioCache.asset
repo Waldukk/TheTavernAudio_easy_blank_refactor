@@ -109,6 +109,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 160000
+--- !u!114 &-4962455272289215427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Outside
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: snapshot:/Outside
+  Guid:
+    Data1: -2143392875
+    Data2: 1143594360
+    Data3: -2076666962
+    Data4: 1076124248
+  Banks:
+  - {fileID: -2310175471152284231}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &-3333191864294473948
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -124,11 +151,38 @@ MonoBehaviour:
   Path: Assets/Fmode/rr/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639123956849520432
+  lastModified: 639136071683640926
   FileSizes:
   - Name: Desktop
-    Value: 1218
+    Value: 1430
   Exists: 1
+--- !u!114 &-3122799708668489904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/inside
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: snapshot:/inside
+  Guid:
+    Data1: 1176996905
+    Data2: 1163089843
+    Data3: -908864834
+    Data4: -668411634
+  Banks:
+  - {fileID: -2310175471152284231}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &-2310175471152284231
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -144,10 +198,10 @@ MonoBehaviour:
   Path: Assets/Fmode/rr/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639123956849500287
+  lastModified: 639136071683620926
   FileSizes:
   - Name: Desktop
-    Value: 8403040
+    Value: 8404672
   Exists: 1
 --- !u!114 &-1729977349415055461
 MonoBehaviour:
@@ -228,13 +282,15 @@ MonoBehaviour:
   - {fileID: 8696776824276576664}
   - {fileID: -8637526608424721967}
   - {fileID: -5184790974860665286}
+  - {fileID: -3122799708668489904}
+  - {fileID: -4962455272289215427}
   EditorParameters: []
   MasterBanks:
   - {fileID: -2310175471152284231}
   StringsBanks:
   - {fileID: -3333191864294473948}
   cacheVersion: 131859
-  cacheTime: 639123956849520432
+  cacheTime: 639136071683640926
   SerializableEventsDict:
   - key: event:/amb_tavern
     index: 0
@@ -252,6 +308,10 @@ MonoBehaviour:
     index: 6
   - key: event:/amb_fire
     index: 7
+  - key: snapshot:/inside
+    index: 8
+  - key: snapshot:/Outside
+    index: 9
 --- !u!114 &4383481819728864587
 MonoBehaviour:
   m_ObjectHideFlags: 0
