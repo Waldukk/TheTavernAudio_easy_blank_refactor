@@ -2343,6 +2343,7 @@ GameObject:
   - component: {fileID: 613997990}
   - component: {fileID: 613997989}
   - component: {fileID: 613997994}
+  - component: {fileID: 613997995}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -2439,7 +2440,7 @@ Transform:
   m_GameObject: {fileID: 613997984}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 400.45, y: 8.22, z: 308.22}
+  m_LocalPosition: {x: 400.45, y: 8.22, z: 305.346}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2459,7 +2460,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerCamera: {fileID: 237163390}
-  walkSpeed: 6
+  walkSpeed: 5.57
   runSpeed: 12
   jumpPower: 6
   gravity: 20
@@ -2539,11 +2540,11 @@ MonoBehaviour:
     Path: event:/footsteps
   jumpEvent:
     Guid:
-      Data1: 2075929898
-      Data2: 1203654522
-      Data3: -535516005
-      Data4: 1561290702
-    Path: event:/footsteps
+      Data1: -489348416
+      Data2: 1326046171
+      Data3: -115817845
+      Data4: 655188044
+    Path: event:/jump_start
   landEvent:
     Guid:
       Data1: 742071978
@@ -2553,6 +2554,33 @@ MonoBehaviour:
     Path: event:/jump
   isGrounded: 1
   isJumping: 0
+--- !u!114 &613997995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 613997984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7d95e26b5cbbe94f93658dcf4aa33cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Outside_foot_switch
+  snapshotActivated: 0
+  outsideSnapshot:
+    Guid:
+      Data1: -2143392875
+      Data2: 1143594360
+      Data3: -2076666962
+      Data4: 1076124248
+    Path: snapshot:/Outside
+  insideSnapshot:
+    Guid:
+      Data1: 1176996905
+      Data2: 1163089843
+      Data3: -908864834
+      Data4: -668411634
+    Path: snapshot:/inside
 --- !u!1 &688602384
 GameObject:
   m_ObjectHideFlags: 0
@@ -2731,7 +2759,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &779345433
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2948,7 +2976,7 @@ Transform:
   m_GameObject: {fileID: 812095295}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.3058167, y: 0.6850395, z: -5.3742676}
+  m_LocalPosition: {x: 0.47, y: 0.6850395, z: -4.45}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5140,7 +5168,7 @@ GameObject:
   - component: {fileID: 1610884564}
   m_Layer: 7
   m_Name: Stone_2
-  m_TagString: Inside_stone
+  m_TagString: Stone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5368,7 +5396,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1627832559
 MonoBehaviour:
   m_ObjectHideFlags: 0
