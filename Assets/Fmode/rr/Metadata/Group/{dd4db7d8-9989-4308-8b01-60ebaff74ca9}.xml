@@ -4,6 +4,10 @@
 		<property name="name">
 			<value>footsteps</value>
 		</property>
+		<relationship name="masters">
+			<destination>{a18ad2c5-223b-4d65-9669-983e674cdd1c}</destination>
+			<destination>{29401345-0548-48d2-b41b-06d31886fc53}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{0747bad4-bcfd-4799-bee8-a013c375aaf8}</destination>
 		</relationship>

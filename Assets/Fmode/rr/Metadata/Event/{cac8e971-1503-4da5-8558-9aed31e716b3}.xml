@@ -47,6 +47,9 @@
 		</relationship>
 	</object>
 	<object class="MixerInput" id="{b15c1b0d-ba2c-4576-b2f3-f517ff7b1d5c}">
+		<relationship name="masters">
+			<destination>{a18ad2c5-223b-4d65-9669-983e674cdd1c}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{49b5fca6-bb20-4d1f-ac6b-0f3ddf87574e}</destination>
 		</relationship>
@@ -54,7 +57,7 @@
 			<destination>{baf951da-cd00-45a5-9286-5947fad7dd8b}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{70b26063-05db-4eb7-b46e-af3b3fd232e9}</destination>
+			<destination>{dd4db7d8-9989-4308-8b01-60ebaff74ca9}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{3f121899-4b10-4f14-acf5-7c9e53b70ec1}" />
@@ -105,6 +108,9 @@
 		<relationship name="modulators">
 			<destination>{2007239f-7c7f-471b-81d9-9d6bfb930a4f}</destination>
 		</relationship>
+		<relationship name="triggerConditions">
+			<destination>{16147f76-2c35-4dbf-8466-99e9f7343804}</destination>
+		</relationship>
 		<relationship name="audioFile">
 			<destination>{61345ebf-b7c9-4b07-972e-d22b56a5ecad}</destination>
 		</relationship>
@@ -124,6 +130,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{bcf16f38-ee2f-4be5-9b35-562c4c406433}">
+		<property name="start">
+			<value>0.28000000000000003</value>
+		</property>
 		<property name="length">
 			<value>1.1213541666666667</value>
 		</property>
@@ -166,6 +175,17 @@
 		<property name="amount">
 			<value>3.5</value>
 		</property>
+	</object>
+	<object class="ParameterCondition" id="{16147f76-2c35-4dbf-8466-99e9f7343804}">
+		<property name="minimum">
+			<value>0</value>
+		</property>
+		<property name="maximum">
+			<value>0</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{39d04abd-ddeb-4e6d-8995-f57cdd9669a8}</destination>
+		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{28e18f7e-e5f0-4d40-a1a5-57f7be1af913}">
 		<relationship name="effects">
